@@ -1,0 +1,84 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.info h2,
+.history h2 {
+  color: #333;
+}
+
+.feature-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.feature-list li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.feature-list li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #333;
+}
+
+.history p {
+  margin-bottom: 15px;
+}
+
+.image {
+  margin-top: 20px;
+}
+
+.additional-image {
+  margin-top: 20px;
+}
+
+.car-image {
+  max-width: 70%;
+  height: auto;
+  max-height: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border-radius: 0 0 5px 5px;
+}
